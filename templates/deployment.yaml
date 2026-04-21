@@ -21,6 +21,6 @@ spec:
             - containerPort: 80
           env:
             - name: NGINX_USERNAME
-              value: "<azureKeyVaultSecret://nginx-username>"
+              value: "<path:psl-kv-centralus://nginx-username>"
             - name: NGINX_PASSWORD
-              value: "<azureKeyVaultSecret://nginx-password>"
+              value: "<path:psl-kv-centralus://nginx-password>"
