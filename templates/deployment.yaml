@@ -21,7 +21,7 @@ spec:
             - containerPort: 80
           env:
             - name: NGINX_USERNAME
-              value: "<azureKeyVaultSecret://kv-avp-test-demo/argo>"
+              value: "<azureKeyVault://kv-avp-test-demo/argo>"
             - name: NGINX_PASSWORD
-              value: "<azureKeyVaultSecret://kv-avp-test-demo/instana>"
+              value: "<azureKeyVault://kv-avp-test-demo/instana>"
 
