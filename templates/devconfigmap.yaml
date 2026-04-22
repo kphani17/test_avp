@@ -4,4 +4,5 @@ metadata:
     name: app-config
 data:
   database-password:  "<path:kv-avp-test-demo#argo>"
+  database-pa:  "<path:kv-avp-test-demo#argo>
   api-key: "<path:kv-avp-test-demo#instana>"
